@@ -64,9 +64,23 @@ console.log(towords(0));
 // };
 // console.log(input(5));
 
-const rollno="647383837478";
+const rollno="679863245782147";
 const digits =String(rollno).split(''); //split the string into an array of individual digits
 console.log(digits);
 
 
 
+// FOR EACH : 
+// arrname.foreach(()=>{})   //Syntax 
+
+//use of foreach in q2
+digits.forEach((digit)=>{
+    console.log(towords(Number(digit)));
+});
+
+
+let inwords="";
+digits.forEach((digit)=>{
+    inwords+=" "+ towords(Number(digit))+" "; //concatenate the words with a space
+});
+console.log(inwords);
