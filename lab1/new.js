@@ -58,4 +58,15 @@ console.log(towords(0));
 
 //  Q2 create a func that takes a no. show in words with help of towords func.
 
+// const input =(num) => {
+//     towords(num);
+// NOT CORRECT
+// };
+// console.log(input(5));
+
+const rollno="647383837478";
+const digits =String(rollno).split(''); //split the string into an array of individual digits
+console.log(digits);
+
+
 
