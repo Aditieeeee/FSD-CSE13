@@ -84,3 +84,4 @@ digits.forEach((digit)=>{
     inwords+=" "+ towords(Number(digit))+" "; //concatenate the words with a space
 });
 console.log(inwords);
+
