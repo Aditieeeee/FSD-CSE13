@@ -56,4 +56,6 @@ console.log(towords(0));
 
 
 
+//  Q2 create a func that takes a no. show in words with help of towords func.
+
 
